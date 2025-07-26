@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill Ott | Executive IT Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f6fa;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      padding: 32px;
+    }
+    .profile-header {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      border-bottom: 1px solid #e0e6ed;
+      padding-bottom: 24px;
+    }
+    .profile-header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #e0e6ed;
+    }
+    .profile-info h1 {
+      margin: 0 0 8px 0;
+      font-size: 2.2rem;
+      color: #1a365d;
+    }
+    .profile-info h2 {
+      margin: 0 0 12px 0;
+      font-size: 1.1rem;
+      color: #3b5b8a;
+      font-weight: 400;
+    }
+    .profile-info p {
+      margin: 0 0 8px 0;
+      color: #444;
+    }
+    .contact-btn {
+      margin-top: 16px;
+      padding: 10px 28px;
+      background: #1a365d;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .contact-btn:hover {
+      background: #274472;
+    }
+    .section {
+      margin-top: 36px;
+    }
+    .section h3 {
+      color: #1a365d;
+      margin-bottom: 16px;
+      font-size: 1.3rem;
+      border-left: 4px solid #3b5b8a;
+      padding-left: 10px;
+    }
+    .experience, .skills, .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .exp-item {
+      background: #f7f9fc;
+      border-radius: 8px;
+      padding: 16px 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    .exp-item h4 {
+      margin: 0 0 4px 0;
+      color: #274472;
+      font-size: 1.1rem;
+    }
+    .exp-item span {
+      color: #6b7a90;
+      font-size: 0.97rem;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills-list span {
+      background: #e0e6ed;
+      color: #274472;
+      border-radius: 4px;
+      padding: 6px 12px;
+      font-size: 0.98rem;
+    }
+    .projects-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .project-card {
+      background: #f7f9fc;
+      border-radius: 8px;
+      padding: 16px 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    .project-card h4 {
+      margin: 0 0 6px 0;
+      color: #274472;
+    }
+    .project-card p {
+      margin: 0;
+      color: #444;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 12px; }
+      .profile-header { flex-direction: column; gap: 18px; }
+      .profile-header img { width: 100px; height: 100px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-header">
+      <img src="profile_image.jpeg" alt="Bill Ott Profile Photo">
+      <div class="profile-info">
+        <h1>William (Bill) Ott</h1>
+        <h2>Executive Director of Digital Transformation | Federal IT Executive</h2>
+        <p>AI & Cloud Strategist | Program Turnaround Leader | Capture & Proposal Expert | DevSecOps Advocate</p>
+        <p>Washington, DC | ott.bill@gmail.com | (703) 489-4227</p>
+        <button class="contact-btn" id="contactBtn">Contact Me</button>
+      </div>
+    </div>
+    <div class="section">
+      <h3>Professional Summary</h3>
+      <p>Results-driven IT executive with 25+ years of experience leading federal digital transformation through cloud, AI, and modern software development. Proven ability to align emerging technologies with mission-critical outcomes, scale high-performing teams, and deliver secure, scalable solutions for DoD and civilian agencies. Recognized for leading complex program turnarounds, managing multimillion-dollar portfolios, and driving capture strategy and growth through innovation and execution.</p>
+    </div>
+    <div class="section experience">
+      <h3>Experience</h3>
+      <div class="exp-item">
+        <h4>ManTech International</h4>
+        <span>Senior Executive Director | Cloud Practice Lead | 2023 – Present</span>
+        <ul>
+          <li>Increased annual P&L from $80M to $100M within 12 months by implementing agile-based delivery models and enforcing margin accountability.</li>
+          <li>Leading a $116M Air Force digital transformation initiative with 140 personnel, integrating cloud migration and agile Salesforce platform development.</li>
+          <li>Managing a $2B federal opportunity pipeline, leading capture and proposal efforts, solution architecture, and technical solutioning for a $900M bid.</li>
+        </ul>
+      </div>
+      <div class="exp-item">
+        <h4>Amazon Web Services (AWS)</h4>
+        <span>Principal Practice Leader | 2021 – 2022</span>
+        <ul>
+          <li>Established and led AWS's Federal Consulting Practice for System Integrators, focused on cloud migration, AI/ML integration, and cultural transformation.</li>
+          <li>Developed GTM strategies accelerating modernization for major federal clients using AWS GovCloud, SageMaker, Lambda, and Bedrock.</li>
+        </ul>
+      </div>
+      <div class="exp-item">
+        <h4>Red Hat Professional Services</h4>
+        <span>Director, Federal Professional Services | 2019 – 2021</span>
+        <ul>
+          <li>Directed a $50M federal professional services business with full P&L ownership across civilian, DoD, and intelligence markets.</li>
+          <li>Standardized delivery execution and increased CSAT across key accounts; drove adoption of OpenShift and Ansible Automation Platform.</li>
+        </ul>
+      </div>
+      <div class="exp-item">
+        <h4>Booz Allen Hamilton</h4>
+        <span>SVP & Digital Business Leader | 2000 – 2019</span>
+        <ul>
+          <li>Founded and scaled Booz Allen's Digital business to $250M annual revenue with a 450-member team, achieving 15–20% YoY growth.</li>
+          <li>Captured and delivered recreation.gov, a $400M, 10-year B2C platform, modernizing public engagement through cloud-native, microservices, and AI-based architecture.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section skills">
+      <h3>Key Skills & Strengths</h3>
+      <div class="skills-list">
+        <span>Digital Transformation</span>
+        <span>Cloud Modernization</span>
+        <span>AI & Machine Learning</span>
+        <span>Data Analytics</span>
+        <span>DevSecOps</span>
+        <span>Secure Software Development</span>
+        <span>P&L Management</span>
+        <span>Program Turnaround</span>
+        <span>Federal IT Strategy</span>
+        <span>Capture & Proposal Strategy</span>
+        <span>Agile (Scrum, SAFe)</span>
+        <span>AWS GovCloud</span>
+        <span>Salesforce</span>
+        <span>Jira</span>
+        <span>FedRAMP</span>
+        <span>NIST 800-53</span>
+      </div>
+    </div>
+    <div class="section projects">
+      <h3>Featured Projects</h3>
+      <div class="projects-list">
+        <div class="project-card">
+          <h4>Air Force Digital Transformation Initiative</h4>
+          <p>Led a $116M program integrating cloud migration, application rationalization, and agile Salesforce platform development for the Air Force. Achieved 30% reduction in technical debt, 25% faster delivery, and 20% software license cost savings.</p>
+        </div>
+        <div class="project-card">
+          <h4>recreation.gov Modernization</h4>
+          <p>Captured and delivered recreation.gov, a $400M, 10-year B2C platform, modernizing public engagement through cloud-native, microservices, and AI-based architecture for Booz Allen Hamilton.</p>
+        </div>
+        <div class="project-card">
+          <h4>Federal Consulting Practice at AWS</h4>
+          <p>Established and led AWS's Federal Consulting Practice for System Integrators, accelerating modernization for major federal clients using AWS GovCloud, SageMaker, Lambda, and Bedrock.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById('contactBtn').addEventListener('click', function() {
+      alert('Thank you for your interest! Please email ott.bill@gmail.com or call (703) 489-4227.');
+    });
+  </script>
+</body>
+</html> 
